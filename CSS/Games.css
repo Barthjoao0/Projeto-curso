@@ -47,9 +47,39 @@ body {
 h2 {
     color: #ffffff;
     font-size: 3rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
 }
 
-div {
-    display: grid;
-    
+div#images {
+    display: inline-grid;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+div>img {
+    width: 300px;
+    height: 350px;
+}
+
+div#dup {
+    background-color: black;
+    border-radius: 0 0 1rem 1rem;
+}
+
+div#dup>p{
+    color: #ffffff;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+div#dup>a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+    background-color: green;
+    color: #ffffff;
+    border-radius: 3rem;
 }
